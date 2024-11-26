@@ -68,6 +68,7 @@ RENAME_SETS = {
     "Commander Anthology Volume II": "Commander Anthology II",
     "Commander Legends: Battle for Baldur's Gate": "CMDR Legends: Baldur's Gate",
     "Dominaria United Commander": "Dominaria United [C]",
+    "Duskmourn: House of Horror Commander": "Duskmourn: HoH [C]",
     "Duel Decks: Elves vs. Goblins": "DD: Elves vs. Goblins",
     "Duel Decks: Jace vs. Chandra": "DD: Jace vs. Chandra",
     "Duel Decks: Divine vs. Demonic": "DD: Divine vs. Demonic",
@@ -96,12 +97,13 @@ RENAME_SETS = {
     "Introductory Two-Player Set": "Intro Two-Player Set",
     "March of the Machine: The Aftermath": "MotM: The Aftermath",
     "March of the Machine Commander": "March of the Machine [C]",
+    "Modern Horizons 3 Commander": "Modern Horizons 3 [C]",
     "Murders at Karlov Manor Commander": "Murders at Karlov Manor [C]",
     "Mystery Booster Playtest Cards": "Mystery Booster Playtest",
     "Mystery Booster Playtest Cards 2019": "MB Playtest Cards 2019",
     "Mystery Booster Playtest Cards 2021": "MB Playtest Cards 2021",
     "Mystery Booster Retail Edition Foils": "Mystery Booster Retail Foils",
-    "Outlaws of Thunder Junction Commander": "Outlaws of Thunder Junction [C]",
+    "Outlaws of Thunder Junction Commander": "Outlaws of Thunder Jct. [C]",
     "Phyrexia: All Will Be One Commander": "Phyrexia: All Will Be One [C]",
     "Planechase Anthology Planes": "Planechase Anth. Planes",
     "Premium Deck Series: Slivers": "Premium Deck Slivers",
@@ -141,7 +143,7 @@ class LabelGenerator:
         "letter": {"width": 2790, "height": 2160, },  # in 1/10 mm
         "a4": {"width": 2970, "height": 2100, },
     }
-    DEFAULT_PAPER_SIZE = "letter"
+    DEFAULT_PAPER_SIZE = "a4"
 
     def __init__(self, paper_size=DEFAULT_PAPER_SIZE, output_dir=DEFAULT_OUTPUT_DIR):
         self.paper_size = paper_size
